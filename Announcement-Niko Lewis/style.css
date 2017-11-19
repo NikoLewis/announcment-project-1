@@ -1,0 +1,199 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+html, body{
+    height:100%;
+}
+
+@keyframes myFrames {
+	0% {
+		width: 0px;
+				
+	}
+	25% {
+		width: 100px;
+				
+	}
+	50% {
+		width: 200px;
+	}	
+	100% {
+				
+		width: 300px;
+	}
+}
+body {
+	background-color: black;
+	color: #E3E3E3;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	margin-left: 30px !important;
+	margin-right: 30px !important;
+	height: 1024px;
+	min-width:960px;
+   	width: auto !important;
+	width:960px; 
+	font-family: 'Libre Baskerville', serif;
+}
+
+header {
+	height: 200px;
+	width: 300px;	
+}
+
+h1 {
+	font-size: 50px;
+}
+#nav-options {
+	animation: myFrames 1s ease-in-out 0s 1;
+	display: flex;
+	justify-content: space-around flex-end;
+	flex-direction: row-reverse;
+	list-style: none;
+	height: 200px;
+	font-weight: bold;
+	top: 0;
+	right: 0 ;
+	padding-top: 40px;
+	padding-right: 60px;
+	padding-left: 60px;
+	position: absolute;
+	font-family: 'Spectral SC', serif;
+	font-size: 18px;
+}
+
+
+#show-title {
+	width: 500px;
+	padding-top: 75px;
+	position: absolute;
+	top: 60;
+	left: 5;	
+}
+ 
+
+#vid-split {
+	display: inline-flex;
+}
+
+ 
+ #quote {
+ 	padding-left: 80px;
+ 	padding-top: 90px;
+ 	margin-bottom: 40px;
+ 	line-height: 30px;
+ 	width: 50% ;
+ 	height: 300px !important;
+ 	font-family: 'Bad Script', cursive;
+ 	left: 0;  
+} 
+h2 {
+	font-family: 'Spectral SC', serif;
+	font-size: 18px;
+	color: white !important;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	border-bottom: solid white 3px;
+	width: 230px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	line-height: 20px;
+	letter-spacing: 1px;
+	padding: 10px 30px 15px 30px;
+	border-bottom: solid #666666 2px;
+}
+
+#home-link {
+	background-color: #A11E22;
+	line-height: 20px;
+	letter-spacing: 1px;
+	border-bottom: solid #A11E22 2px;
+}
+
+#sections {
+	display: flex;
+	flex-direction: column;
+
+	align-items: flex-end;
+	padding-top: 300px;
+	margin-bottom: 40px;
+}
+
+
+#main {
+	display: inline-flex;
+	height: 400px;
+	width: 100%;
+	font-family: 'Handlee', cursive;
+	font-size: 18px;
+}
+
+#pioneers {
+	height: 400px;
+	width: 50%;
+	color: white;
+}
+#killers{
+	height: 400px;
+	width: 150%%;
+	color: white;
+}
+
+#synopsis{
+	height: 400px;
+	margin-top: 20px;
+	width: 75%;
+	color: white;
+	align-items: flex-start !important;
+	align-content: center;
+	line-height: 30px;
+	width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+td, th {
+    text-align: left;
+   padding: 25px 30px 15px 30px;
+}
+
+td > h3 {
+	
+	background-color: #A11E22;
+	padding: 5px 0px 5px 0px;
+	width: 200px !important;
+	font-family: 'Spectral SC', serif;
+	font-size: 16px
+}
+.hor-border {
+	border-bottom: 3px solid #666666;
+
+}
+
+.vert-border {
+	border-right: 3px solid #666666;
+
+}
+#footer-title {
+	margin-bottom: 30px;
+}
+
+
+#footer {
+	height: 300px;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+
+
+   
